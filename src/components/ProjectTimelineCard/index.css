@@ -1,0 +1,52 @@
+.project-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-shadow: 2px 2px 2px 2px #1e293b;
+  border-radius: 10px;
+}
+
+.project-image {
+  width: 98%;
+}
+
+.project-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #1e293b;
+  font-family: Roboto;
+}
+
+.project-duration-container {
+  display: flex;
+  align-items: center;
+}
+
+.project-heading {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.calendar-icon {
+  height: 12px;
+  width: 12px;
+}
+
+.project-duration-text {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.project-description-text {
+  font-size: 14px;
+  color: #171f46;
+  font-weight: 500;
+  text-align: start;
+}
+
+.anchor-ele {
+  text-decoration: none;
+  align-self: flex-start;
+}
